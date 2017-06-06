@@ -1,0 +1,7 @@
+Question Number: VII-A-8
+Expected Answer: いいえ、にねんしょうじゃないです。よねんせいです。
+Student Answer: いいえ、にねんせいじゃないです。よねんせいです。
+
+Question Number: VII-A-2
+Expected Answer: いいえ、アメリカにんじゃないです。イギリスにんです。
+Student Answer: いいえ、アメリカじんじゃないです。イギリスじんです。
