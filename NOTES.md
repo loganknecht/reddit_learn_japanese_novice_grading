@@ -22,11 +22,3 @@ Single files?
     1. python setup.py build
     2. python setup.py install
     3. python setup.py clean
-
-
-# Implementation References
-## Pitch Widget
-- https://github.com/rserota/wad#pitch-detection
-
-## Visualization
-- https://github.com/rserota/wad#external-fx
