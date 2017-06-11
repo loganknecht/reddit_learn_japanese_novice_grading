@@ -8,6 +8,9 @@ def normalize_sentence(sentence_to_normalize, text_normalizer):
     sentence_without_spaces = re.sub("[ 　]",
                                      "",
                                      sentence_to_normalize)
+    sentence_without_spaces = re.sub("[).]",
+                                     ":",
+                                     sentence_to_normalize)
     stripped_sentence = sentence_without_spaces.strip()
     # Assumes contract is text_normalizer.do
     normalized_sentence = text_normalizer.do(stripped_sentence)
@@ -16,17 +19,25 @@ def normalize_sentence(sentence_to_normalize, text_normalizer):
 
 def load_file(file_path, text_normalizer):
     """Returns JSON object."""
+    print("Opening:\n{}".format(file_path))
     with open(file_path, "r") as file:
         normalized_lines = [normalize_sentence(line, text_normalizer)
                             for line
                             in file]
 
-    json_to_return = {
-        # This is so shameful. I have brought dishonor to my family
-        line.split(":")[0]: line.split(":")[1]
-        for line
-        in normalized_lines
-    }
+    # json_to_return = {
+    #     # This is so shameful. I have brought dishonor to my family
+    #     (line.split(":")[0]).lower(): (line.split(":")[1]).lower()
+    #     for line
+    #     in normalized_lines
+    #     if line.strip() != ""
+    # }
+    json_to_return = {}
+    for line in normalized_lines:
+        print("Reading: {}".format(line))
+        if line != "":
+            problem_number, sentence = line.split(":")
+            json_to_return[problem_number] = sentence
 
     return json_to_return
 
@@ -73,17 +84,18 @@ def perform_grading(answer_key_path, answer_sets_path, output_directory, text_no
                 incorrect_answers.append(output_string)
                 # print(output_string)
 
-        if incorrect_answers:
-            student_output_filepath = os.path.join(output_directory,
-                                                   student_name)
-
-            with open(student_output_filepath, "w+") as student_corrections_file:
-                student_corrections_file.write("\n".join(incorrect_answers))
+        student_output_filepath = os.path.join(output_directory, student_name)
+        with open(student_output_filepath, "w+") as student_corrections_file:
+            student_corrections_file.write("\n".join(incorrect_answers))
 
 # ------------------------------------------------------------------------------
-master_answer_key = "/Users/Hugbot/Desktop/grading/answer_keys/lesson_02_part_03.txt"
-student_answer_sets = "/Users/Hugbot/Desktop/grading/answer_sets/"
-date_string = "2017_05_30"
+current_directory = os.path.dirname(os.path.abspath(__file__))
+master_answer_key = os.path.join(current_directory,
+                                 "answer_keys/2017_06_01_lesson_02_part_04.txt")
+student_answer_sets = os.path.join(current_directory,
+                                   "answer_sets")
+# CHANGE THIS BIT
+date_string = "2017_06_01"
 current_student_answer_sets = os.path.join(student_answer_sets,
                                            date_string,
                                            "student_answers")

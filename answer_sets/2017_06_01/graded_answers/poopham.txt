@@ -1,0 +1,119 @@
+Question Number: 2-5-I-1
+Expected Answer: 　たなかさんはにほんじんです。　よしださんもにほんじんです。
+Student Answer:   たなかさんはにほんじんです。 よしださんもにほんじんです。
+
+Question Number: 2-5-I-4
+Expected Answer: 　これはわたしのじてんしゃです。　それもわたしのじてんしゃです。
+Student Answer:  これはわたしのじてんしゃです。 それもわたしのじてんしゃです。
+
+Question Number: 2-6-B-2
+Expected Answer: 　えいごです。
+Student Answer:  クリスティさんのせんこうはえいごです。
+
+Question Number: 2-6-C-1-b
+Expected Answer: 　600
+Student Answer:  600
+
+Question Number: 2-5-II-1
+Expected Answer: 　いいえ、　かいしゃいんじゃないです。
+Student Answer:  いいえ、かしゃいｎじゃないです。
+
+Question Number: 2-5-II-3
+Expected Answer: 　いいえ、　れきしじゃないです。
+Student Answer:  いいえ、れきしじゃないです。
+
+Question Number: 2-5-I-2
+Expected Answer: 　たなかさんははたちです。　よしださんもはたちです。
+Student Answer:   たなかさんははたちです。 よしださんもはたちです。
+
+Question Number: 2-6-A-3
+Expected Answer: 　？
+Student Answer:  ?
+
+Question Number: 2-4-I-3
+Expected Answer: 　ここです。
+Student Answer:  ここです
+
+Question Number: 2-6-A-5
+Expected Answer: 　100
+Student Answer:  100
+
+Question Number: 2-4-I-1
+Expected Answer:  あそこです。
+Student Answer:  あそこです
+
+Question Number: 2-5-I-5
+Expected Answer: 　たけしさんのせんこうはれきしです。　わたしのせんこうもれきしです。
+Student Answer:  たけしさんのせんこうはれきしです。 わたしのせんこうもれきしです。
+
+Question Number: 2-5-II-2
+Expected Answer: 　いいえ、　にほんじんじゃないです。
+Student Answer:  いいえ、にほんじんじゃないです。
+
+Question Number: 2-6-C-2-b
+Expected Answer: 　o
+Student Answer:  o
+
+Question Number: 2-6-C-2-a
+Expected Answer: 　x
+Student Answer:  x
+
+Question Number: 2-5-I-3
+Expected Answer: 　このじしょはにせんえんです。　そのじしょもにせんえんです。
+Student Answer:  このじしょはにせんえんです。 そのじしょもにせんえんです。
+
+Question Number: 2-6-C-1-a
+Expected Answer: 　3000
+Student Answer:  3000
+
+Question Number: 2-4-II-3
+Expected Answer: 　あれはだれのかさですか。
+Student Answer:  あれはだれのかさですか。
+
+Question Number: 2-4-II-1
+Expected Answer: 　これはだれのぼうしですか。
+Student Answer:  これはだれのぼうしですか。
+
+Question Number: 2-6-A-2
+Expected Answer: 　1000
+Student Answer:  1000
+
+Question Number: 2-4-II-2
+Expected Answer: 　これはだれのさいふですか。
+Student Answer:  これはだれのさいふですか。
+
+Question Number: 2-6-B-3
+Expected Answer: 　はい、にほんじんです。
+Student Answer:  ええ、そうです。
+
+Question Number: 2-6-C-2-c
+Expected Answer: 　o
+Student Answer:  o
+
+Question Number: 2-4-I-4
+Expected Answer: 　あそこです。
+Student Answer:  あそこです
+
+Question Number: 2-5-II-5
+Expected Answer: 　いいえ、　これはわたしのかさじゃないです。
+Student Answer:  いいえ、これはわたしのかさじゃないです。
+
+Question Number: 2-6-B-4
+Expected Answer: 　いいえ、にほんじんじゃないです。フランスにんです。
+Student Answer:  いいえ、クリスティさんのおかあさんにほんじんじゃないです。フランスにんです。
+
+Question Number: 2-5-II-4
+Expected Answer: 　いいえ、　あれはわたしのじてんしゃじゃないです。
+Student Answer:  いいえ、わたしのじてんしゃじゃないです。
+
+Question Number: 2-6-B-1
+Expected Answer: 　いいえ、　アメリカにんじゃないです。　フランスにんです。
+Student Answer:  いいえ、アメリカじんじゃないです。フランスじんです。
+
+Question Number: 2-4-I-2
+Expected Answer: 　そこです。
+Student Answer:  そこです
+
+Question Number: 2-6-C-1-c
+Expected Answer: 　1200
+Student Answer:  1200
