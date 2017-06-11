@@ -1,0 +1,24 @@
+Question Number: 3-II-A-4
+Expected Answer: さんじにこーひーをのみます。
+Student Answer:  さんじにコーヒーをのみます。
+
+Question Number: 3-V-A-7
+Expected Answer: コンピューターゲームをします。
+Student Answer:  コンピュータゲームをします。
+
+Question Number: 3-V-A-6
+Expected Answer: たまごをたべます。
+Student Answer:  いたまごをたべます。
+
+Question Number: 3-V-A-5
+Student Answer: としにいきます。
+What is a とし? Do you mean としょかん?
+
+Question Number: 3-V-B
+Expected Answer: Answer did not exist in answer key.
+Student Answer: こんにちはくじにしごとにいきます。あしたはいちじごろにとしをいきます。フェスティバルをみます。
+What is a とし? Do you mean としょかん?
+
+Question Number: 3-V-A-8
+Expected Answer: じゅうにときごろねます。
+Student Answer:  じゅうにときごろにねます。

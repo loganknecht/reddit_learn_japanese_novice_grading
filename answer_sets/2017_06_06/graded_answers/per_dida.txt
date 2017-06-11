@@ -1,0 +1,7 @@
+Question Number: 3-I-B-6
+Expected Answer: にほんごをはなします
+Student Answer: にほんごをはなします。
+
+Question Number: 3-I-A-5
+Expected Answer: はなします/はなしません
+Student Answer: はなします/はましません

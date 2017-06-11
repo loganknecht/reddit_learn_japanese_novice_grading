@@ -1,0 +1,91 @@
+Question Number: 3-II-A-1
+Expected Answer: しちじはんにおきます。
+Student Answer: ごぜんしちじはんにおきます。
+
+Question Number: 3-II-A-4
+Expected Answer: さんじにこーひーをのみます。
+Student Answer: ここさんじにこーひーをのみます。
+
+Question Number: 3-IV-3
+Expected Answer: Answer did not exist in answer key.
+Student Answer: いいえ、あまりいきません。
+
+Question Number: 3-V-A-3
+Expected Answer: Answer did not exist in answer key.
+Student Answer: あまりテレビをみません。
+
+Question Number: 3-V-A-7
+Expected Answer: Answer did not exist in answer key.
+Student Answer: うちでべんきょうします。
+
+Question Number: 3-V-A-2
+Expected Answer: Answer did not exist in answer key.
+Student Answer: うちでべんきょうします。
+
+Question Number: 3-II-A-6
+Expected Answer: はちじにべんきょうします。
+Student Answer: ここはちじにべんきょうします。
+
+Question Number: 3-II-A-7
+Expected Answer: じゅういちじはんにねます。
+Student Answer: ここじゅういちじはんにねます。
+
+Question Number: 3-II-A-3
+Expected Answer: じゅうにじにひるごはんをたべます。
+Student Answer: じゅうにじにたべます。
+
+Question Number: 3-IV-1
+Expected Answer: Answer did not exist in answer key.
+Student Answer: ええ、ときどきします。
+
+Question Number: 3-V-A-6
+Expected Answer: Answer did not exist in answer key.
+Student Answer: あさにたまごをたべます。
+
+Question Number: 3-V-A-5
+Expected Answer: Answer did not exist in answer key.
+Student Answer: こうえんよくにいきます。
+
+Question Number: 3-IV-5
+Expected Answer: Answer did not exist in answer key.
+Student Answer: ええ、ときどきのみます。
+
+Question Number: 3-II-A-5
+Expected Answer: ごじにうちにかえります。
+Student Answer: ここごじにうちにかえります。
+
+Question Number: 3-III-A-2
+Expected Answer: わたしのうちにきませんか。
+Student Answer: わたしのうちにいきませんか。
+
+Question Number: 3-V-A-4
+Expected Answer: Answer did not exist in answer key.
+Student Answer: ときどきスポーツをします。
+
+Question Number: 3-V-A-1
+Expected Answer: Answer did not exist in answer key.
+Student Answer: ごぜんろくじはんにおきます。
+
+Question Number: 3-IV-6
+Expected Answer: Answer did not exist in answer key.
+Student Answer: ええ、よくききます。
+
+Question Number: 3-IV-7
+Expected Answer: Answer did not exist in answer key.
+Student Answer: ええ、ときどきたべます。
+
+Question Number: 3-IV-2
+Expected Answer: Answer did not exist in answer key.
+Student Answer: いいえ、あまりよみません。
+
+Question Number: 3-II-A-2
+Expected Answer: はちじはんにがっこうにいきます。
+Student Answer: ごぜんはちじはんにがっこうにいきます。
+
+Question Number: 3-V-A-8
+Expected Answer: Answer did not exist in answer key.
+Student Answer: まいばん、ごぜんじゅうにじはんごろにねます。
+
+Question Number: 3-IV-4
+Expected Answer: Answer did not exist in answer key.
+Student Answer: ええ、よくみます。

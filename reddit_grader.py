@@ -8,10 +8,10 @@ def normalize_sentence(sentence_to_normalize, text_normalizer):
     sentence_without_spaces = re.sub("[ 　]",
                                      "",
                                      sentence_to_normalize)
-    sentence_without_spaces = re.sub("[).]",
-                                     ":",
-                                     sentence_to_normalize)
-    stripped_sentence = sentence_without_spaces.strip()
+    sentence_with_colon_added = re.sub("[).]",
+                                       ":",
+                                       sentence_without_spaces)
+    stripped_sentence = sentence_with_colon_added.strip()
     # Assumes contract is text_normalizer.do
     normalized_sentence = text_normalizer.do(stripped_sentence)
     return normalized_sentence
@@ -69,20 +69,23 @@ def perform_grading(answer_key_path, answer_sets_path, output_directory, text_no
         os.makedirs(output_directory)
 
     # Perform grading
-    for student_answer_set_path, student_answer_set in student_answer_sets:
-        student_name = os.path.basename(student_answer_set_path)
+    for student_answer_file_path, student_answer_set in student_answer_sets:
+        student_name = os.path.basename(student_answer_file_path)
         incorrect_answers = []
-        for student_answert_set_number, student_answer_set_answer in student_answer_set.items():
-            correct_answer = answer_key[student_answert_set_number]
-            if correct_answer != student_answer_set_answer:
+        for question_number, student_answer in student_answer_set.items():
+            if question_number in answer_key:
+                correct_answer = answer_key[question_number]
+            else:
+                correct_answer = "Answer did not exist in answer key."
+
+            if correct_answer != student_answer:
                 output_string = ("Question Number: {}\n"
                                  "Expected Answer: {}\n"
                                  "Student Answer: {}"
-                                 "\n").format(student_answert_set_number,
+                                 "\n").format(question_number,
                                               correct_answer,
-                                              student_answer_set_answer)
+                                              student_answer)
                 incorrect_answers.append(output_string)
-                # print(output_string)
 
         student_output_filepath = os.path.join(output_directory, student_name)
         with open(student_output_filepath, "w+") as student_corrections_file:
@@ -90,12 +93,13 @@ def perform_grading(answer_key_path, answer_sets_path, output_directory, text_no
 
 # ------------------------------------------------------------------------------
 current_directory = os.path.dirname(os.path.abspath(__file__))
+# CHANGE THIS BIT!
 master_answer_key = os.path.join(current_directory,
-                                 "answer_keys/2017_06_01_lesson_02_part_04.txt")
+                                 "answer_keys/2017_06_08_lesson_03_part_02.txt")
 student_answer_sets = os.path.join(current_directory,
                                    "answer_sets")
-# CHANGE THIS BIT
-date_string = "2017_06_01"
+# CHANGE THIS BIT!
+date_string = "2017_06_08"
 current_student_answer_sets = os.path.join(student_answer_sets,
                                            date_string,
                                            "student_answers")

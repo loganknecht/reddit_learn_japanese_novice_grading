@@ -1,0 +1,39 @@
+Question Number: 3-I-B-3
+Expected Answer: ハンバーガーをたべます。
+Student Answer: マクドナルドでハンバーガーをたべます。
+
+Question Number: 3-I-B-6
+Expected Answer: にほんごをはなします
+Student Answer: だいがくでにほんごをはなします。
+
+Question Number: 3-I-C-5
+Expected Answer: アメリカにかえります。
+Student Answer: アメリカにかえります
+
+Question Number: 3-I-C-2
+Expected Answer: がっこうにきます。
+Student Answer: がっこうにいきます。
+
+Question Number: 3-I-C-4
+Expected Answer: うちにかえります。
+Student Answer: いえにかえります。
+
+Question Number: 3-I-B-4
+Expected Answer: コーヒーをのみます。
+Student Answer: きっさてんでコーヒーをのみます。
+
+Question Number: 3-I-B-2
+Expected Answer: テニスをします。
+Student Answer: がっこうでテニスをします。
+
+Question Number: 3-I-B-5
+Expected Answer: テレビをみます。
+Student Answer: うちでテレビをみます。
+
+Question Number: 3-I-C-3
+Expected Answer: きっさてんにきます。
+Student Answer: きっさてんにいきます。
+
+Question Number: 3-I-B-1
+Expected Answer: おんがくをききます。
+Student Answer: うちでおんがくをききます。

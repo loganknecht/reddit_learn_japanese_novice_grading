@@ -1,63 +1,15 @@
-Question Number: 2-5-I-3
-Expected Answer: 　このじしょはにせんえんです。　そのじしょもにせんえんです。
-Student Answer:  このじしょはにひゃくえんです。 そのじしょもにひゃくえんです。
-
-Question Number: 2-5-I-4
-Expected Answer: 　これはわたしのじてんしゃです。　それもわたしのじてんしゃです。
-Student Answer:  これはわたしのじてんしゃです。 それもわたしのじてんしゃです。
-
-Question Number: 2-4-II-3
-Expected Answer: 　あれはだれのかさですか。
-Student Answer:  あれはだれのかさですか。
-
-Question Number: 2-5-II-3
-Expected Answer: 　いいえ、　れきしじゃないです。
-Student Answer:  いいえ、れきしじゃないです。
-
-Question Number: 2-5-II-1
-Expected Answer: 　いいえ、　かいしゃいんじゃないです。
-Student Answer:  いいえ、かいしゃいんじゃないです。
+Question Number: 2-4-II-1
+Expected Answer: これはだれのぼうしですか。
+Student Answer: これはだれのほうじですか。
 
 Question Number: 2-5-I-1
-Expected Answer: 　たなかさんはにほんじんです。　よしださんもにほんじんです。
-Student Answer:  たなかたなかさんはにほんじんです。 よしださんもにほんじんです。
+Expected Answer: たなかさんはにほんじんです。よしださんもにほんじんです。
+Student Answer: たなかたなかさんはにほんじんです。よしださんもにほんじんです。
 
-Question Number: 2-5-I-2
-Expected Answer: 　たなかさんははたちです。　よしださんもはたちです。
-Student Answer:  たなかさんははたちです。 よしださんもはたちです。
-
-Question Number: 2-4-II-2
-Expected Answer: 　これはだれのさいふですか。
-Student Answer:  これはだれのさいふですか。
-
-Question Number: 2-4-II-1
-Expected Answer: 　これはだれのぼうしですか。
-Student Answer:  これはだれのほうじですか。
-
-Question Number: 2-4-I-4
-Expected Answer: 　あそこです。
-Student Answer:  あそこです。
-
-Question Number: 2-5-II-5
-Expected Answer: 　いいえ、　これはわたしのかさじゃないです。
-Student Answer:  いいえ、これはわたしのかさじゃないです。
-
-Question Number: 2-4-I-3
-Expected Answer: 　ここです。
-Student Answer:  ここです。
-
-Question Number: 2-5-II-4
-Expected Answer: 　いいえ、　あれはわたしのじてんしゃじゃないです。
-Student Answer:  いいえ、あれはわたしのじてんしゃじゃないです。
+Question Number: 2-5-I-3
+Expected Answer: このじしょはにせんえんです。そのじしょもにせんえんです。
+Student Answer: このじしょはにひゃくえんです。そのじしょもにひゃくえんです。
 
 Question Number: 2-5-I-5
-Expected Answer: 　たけしさんのせんこうはれきしです。　わたしのせんこうもれきしです。
-Student Answer:  たけしさんはせんこうのれきしです。 わたしのせんこうもれきしです。
-
-Question Number: 2-4-I-2
-Expected Answer: 　そこです。
-Student Answer:  そこです。
-
-Question Number: 2-5-II-2
-Expected Answer: 　いいえ、　にほんじんじゃないです。
-Student Answer:  いいえ、にほんじんじゃないです。
+Expected Answer: たけしさんのせんこうはれきしです。わたしのせんこうもれきしです。
+Student Answer: たけしさんはせんこうのれきしです。わたしのせんこうもれきしです。
